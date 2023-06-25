@@ -1,0 +1,20 @@
+ <div class="color">
+        <video autoplay muted loop id="myVideo">
+            <source src="Videos/color.mp4" type="video/mp4" />
+        </video>
+    </div>
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo"><img src="Images/logonav-removebg-preview.png" height="50px" width="50px"></div>
+            <div>
+                <ul class="ul-list">
+                    <li><a class="list" href="#">Services</a></li>
+                    <li><a class="list" href="#">About Us</a></li>
+                    <li><a class="list" href="#">Portfolio</a></li>
+                    <li><a class="list" href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            
+        </div>
+        <div><img src="Images/logonav-removebg-preview.png" height="50px" width="50px"></div>
+    </nav>

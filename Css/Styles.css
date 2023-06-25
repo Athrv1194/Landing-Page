@@ -1,0 +1,165 @@
+
+body {
+   margin: 0px;
+   /* position: relative; */
+   background-color: ;
+   background-image: linear-gradient(to right, #53694F 0%,#53694F 50%, #A38262 50%, #A38262 100%);
+   min-height: 100vh;
+}
+
+/* .color video { 
+    width: 100%;
+    height: auto;
+    position: fixed;
+    z-index: -1;
+    
+}
+
+
+.nav .nav-container { 
+    align-items: center;
+    padding: 20px;
+    justify-content: space-between;
+    gap: 200px;
+
+}
+
+
+ .nav-container { 
+    display: flex;
+
+}
+*/
+.ul-list  {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+
+}
+
+.list {
+    text-decoration: none;
+    color: white;  
+}
+
+/* .nav-logo { 
+    
+
+}
+
+.nav {
+  display: flex;
+  gap: 900px;
+  padding: 20px;
+  align-items: center;
+}
+*/
+
+.container {
+    position: relative;
+    top: 6px;
+}
+
+a,
+a:hover {
+    text-decoration: none;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchText {
+    width: 1px;
+    border-radius: 65px;
+    border: none;
+    outline: none;
+    transition: all 0.2s linear;
+
+}
+
+.searchBtn {
+    width: 35px;
+    height: 35px;
+    background-color: #53694F;
+    color: #c5f1bd79;
+    position: relative;
+    right: 33px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    outline-style: solid;
+}
+
+.search:hover > .searchText {
+    width: 200px;
+    padding: 10px;
+    box-shadow: 0 2rem 2rem -1rem rgba(0, 0, 0, 0.39);
+}
+
+.search:hover > .searchBtn {
+    background-color: white;
+    color: #53694F;
+    outline-style: none;
+}
+
+.title {
+    color: white;
+}
+
+.ul-lists  {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+
+}
+
+.lists {
+    text-decoration: none;
+    color: white;  
+}
+
+img {
+    height: 200px;
+}
+
+.profile-pic-div {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 132%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow:hidden;
+    border: 1px solid grey;
+    outline-style: solid;
+    color: #f7be86;
+    border-radius: 100px;
+}
+
+#photo {
+    height: 100%;
+    width: 100%;
+}
+
+#file {
+    display: none;
+}
+
+.shop {
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    overflow:hidden;
+    border: 1px solid grey;
+    outline-style: solid;
+    color: #f7be86;
+    border-radius: 100px;
+}
+
