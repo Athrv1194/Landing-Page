@@ -40,6 +40,8 @@ body {
 .list {
     text-decoration: none;
     color: white;  
+    font-family: Haas Grot Text R Web, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
 }
 
 /* .nav-logo { 
@@ -56,9 +58,18 @@ body {
 */
 
 .container {
-    position: relative;
-    top: 6px;
+    padding: 20px;
 }
+
+.container-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: #f7be86 1px solid;
+
+}
+
+.con
 
 a,
 a:hover {
@@ -120,6 +131,8 @@ a:hover {
 .lists {
     text-decoration: none;
     color: white;  
+    font-family: Haas Grot Text R Web, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-weight: lighter;
 }
 
 img {
@@ -155,11 +168,22 @@ img {
     position: absolute;
     top: 80%;
     left: 50%;
+    
+
+}
+
+.btn {
+    background-color: #E9D6F8;
+    color: #6504af;
+    height: 35px;
+    width: 35px;
+    overflow: hidden;
     transform: translate(-50%, -50%);
-    overflow:hidden;
     border: 1px solid grey;
-    outline-style: solid;
-    color: #f7be86;
     border-radius: 100px;
 }
 
+h1 {
+    font-family: serif;
+    font-weight: lighter;
+}
