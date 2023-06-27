@@ -1,10 +1,8 @@
-
 body {
-   margin: 0px;
-   /* position: relative; */
-   background-color: ;
-   background-image: linear-gradient(to right, #53694F 0%,#53694F 50%, #A38262 50%, #A38262 100%);
-   min-height: 100vh;
+    margin: 0px;
+    /* position: relative; */
+    background-image: linear-gradient(to right, #53694F 0%, #53694F 50%, #A38262 50%, #A38262 100%);
+    min-height: 100vh;
 }
 
 /* .color video { 
@@ -30,16 +28,17 @@ body {
 
 }
 */
-.ul-list  {
+.ul-list {
     display: flex;
-    gap: 50px;
+    gap: 49px;
     list-style: none;
-
+    left: 40px;
+    position: relative;
 }
 
 .list {
     text-decoration: none;
-    color: white;  
+    color: white;
     font-family: Haas Grot Text R Web, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: lighter;
 }
@@ -65,11 +64,9 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: #f7be86 1px solid;
+    border-bottom: white 1px solid;
 
 }
-
-.con
 
 a,
 a:hover {
@@ -77,10 +74,11 @@ a:hover {
 }
 
 .search {
-    position: relative;
+    position: absolute;
     display: flex;
     justify-content: center;
     align-items: center;
+    left: 57px;
 }
 
 .searchText {
@@ -97,21 +95,22 @@ a:hover {
     height: 35px;
     background-color: #53694F;
     color: #c5f1bd79;
-    position: relative;
-    right: 33px;
+    position: absolute;
+    right: -3px;
     display: grid;
     place-items: center;
     border-radius: 50%;
     outline-style: solid;
+    text-decoration: none;
 }
 
-.search:hover > .searchText {
+/* .search:hover > .searchText {
     width: 200px;
     padding: 10px;
     box-shadow: 0 2rem 2rem -1rem rgba(0, 0, 0, 0.39);
 }
-
-.search:hover > .searchBtn {
+ */
+.search:hover>.searchBtn {
     background-color: white;
     color: #53694F;
     outline-style: none;
@@ -121,16 +120,18 @@ a:hover {
     color: white;
 }
 
-.ul-lists  {
+.ul-lists {
     display: flex;
     gap: 50px;
     list-style: none;
+    position: relative;
+    left: 101px;
 
 }
 
 .lists {
     text-decoration: none;
-    color: white;  
+    color: white;
     font-family: Haas Grot Text R Web, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-weight: lighter;
 }
@@ -140,13 +141,13 @@ img {
 }
 
 .profile-pic-div {
-    height: 35px;
-    width: 35px;
+    height: 30px;
+    width: 30px;
     position: absolute;
-    top: 132%;
-    left: 50%;
+    top: 55px;
+    right: 72px;
     transform: translate(-50%, -50%);
-    overflow:hidden;
+    overflow: hidden;
     border: 1px solid grey;
     outline-style: solid;
     color: #f7be86;
@@ -165,11 +166,9 @@ img {
 .shop {
     height: 35px;
     width: 35px;
-    position: absolute;
-    top: 80%;
-    left: 50%;
-    
-
+    position: relative;
+    top: 19px;
+    left: 5px;
 }
 
 .btn {
@@ -186,4 +185,66 @@ img {
 h1 {
     font-family: serif;
     font-weight: lighter;
+    position: relative;
+    right: -85px;
+}
+
+.para {
+    color: #ffffff;
+    position: absolute;
+    left: 1270px;
+    font-family: monospace;
+    top: 82px;
+}
+
+.Bold-word {
+    color: white;
+    font-family: serif;
+    font-style: normal;
+    font-size: 32px;
+    position: absolute;
+    left: 90px;
+}
+
+.para-two {
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+    line-height: 20px;
+    position: absolute;
+    left: 90px;
+    top: 208px;
+}
+
+.catalog-btn{
+    position: absolute;
+    top: 321px;
+    left: 89px;
+}
+
+.view-catalog {
+    background-color:#b397e0;
+    color: #53694F;
+    border:none; 
+    border-radius:10px; 
+    padding:15px;
+    min-height:30px; 
+    min-width: 120px;
+    font-family: monospace;
+    font-weight: 900;
+
+}
+
+.view-catalog:hover {
+    background-color:#6f39c7;
+    transition: 0.7s;
+    border-radius: 8px;
+    color: #b397e0;
+}
+
+.left {
+    position: relative;
+    left: -72px;
+    top: 54px;
 }
