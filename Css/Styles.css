@@ -44,7 +44,7 @@ body {
 }
 
 /* .nav-logo { 
-    
+
 
 }
 
@@ -217,19 +217,19 @@ h1 {
     top: 208px;
 }
 
-.catalog-btn{
+.catalog-btn {
     position: absolute;
     top: 321px;
     left: 89px;
 }
 
 .view-catalog {
-    background-color:#b397e0;
+    background-color: #b397e0;
     color: #53694F;
-    border:none; 
-    border-radius:10px; 
-    padding:15px;
-    min-height:30px; 
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    min-height: 30px;
     min-width: 120px;
     font-family: monospace;
     font-weight: 900;
@@ -237,14 +237,132 @@ h1 {
 }
 
 .view-catalog:hover {
-    background-color:#6f39c7;
+    background-color: #6f39c7;
     transition: 0.7s;
     border-radius: 8px;
     color: #b397e0;
+    outline-style: solid;
 }
 
 .left {
     position: relative;
     left: -72px;
     top: 54px;
+}
+
+.right {
+    position: absolute;
+    right: -3px;
+    top: 242px;
+
+}
+
+.left-arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -45px;
+    left: 10px;
+}
+
+.left-arrow-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    color: white;
+    background-color: #A38262;
+    outline-style: none;
+}
+
+.left-arrow-btn:hover {
+    background-color: #b397e0;
+    font-weight: bolder;
+}
+
+.right-arrow {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: -45px;
+    left: 52px;
+
+}
+
+.right-arrow-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 17px;
+    height: 30px;
+    width: 30px;
+    border: 1px solid white;
+    color: white;
+    background-color: #A38262;
+    outline-style: none;
+}
+
+.right-arrow-btn:hover {
+    background-color: #b397e0;
+    font-weight: bolder;
+}
+
+.dates {
+    position: absolute;
+    top: -63px;
+    left: 115px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.big {
+    font-size: 30px;
+}
+
+.random {
+    position: relative;
+    left: 5px;
+    top: -10px;
+}
+
+.points {
+    position: relative;
+    left: 3px;
+    top: -28px;
+}
+
+.dress-img {
+    color: white;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.footer {
+    position: absolute;
+    bottom: 4px;
+}
+
+.left-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e5d6c4; 
+}
+
+.footer-font {
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 11px;
+}
+
+.right-footer {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.right-footer-container{
+    color: #e5d6c4;
+
 }
