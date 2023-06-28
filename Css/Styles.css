@@ -1,7 +1,11 @@
 body {
     margin: 0px;
     /* position: relative; */
-    background-image: linear-gradient(to right, #53694F 0%, #53694F 50%, #A38262 50%, #A38262 100%);
+    background-image: linear-gradient(to right,
+            #53694f 0%,
+            #53694f 50%,
+            #91663b 50%,
+            #a38262 100%);
     min-height: 100vh;
 }
 
@@ -39,7 +43,8 @@ body {
 .list {
     text-decoration: none;
     color: white;
-    font-family: Haas Grot Text R Web, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Haas Grot Text R Web, Helvetica Neue, Helvetica, Arial,
+        sans-serif;
     font-weight: lighter;
 }
 
@@ -65,7 +70,6 @@ body {
     justify-content: space-between;
     align-items: center;
     border-bottom: white 1px solid;
-
 }
 
 a,
@@ -87,13 +91,12 @@ a:hover {
     border: none;
     outline: none;
     transition: all 0.2s linear;
-
 }
 
 .searchBtn {
     width: 35px;
     height: 35px;
-    background-color: #53694F;
+    background-color: #53694f;
     color: #c5f1bd79;
     position: absolute;
     right: -3px;
@@ -112,7 +115,7 @@ a:hover {
  */
 .search:hover>.searchBtn {
     background-color: white;
-    color: #53694F;
+    color: #53694f;
     outline-style: none;
 }
 
@@ -126,13 +129,13 @@ a:hover {
     list-style: none;
     position: relative;
     left: 101px;
-
 }
 
 .lists {
     text-decoration: none;
     color: white;
-    font-family: Haas Grot Text R Web, Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-family: Haas Grot Text R Web, Helvetica Neue, Helvetica, Arial,
+        sans-serif;
     font-weight: lighter;
 }
 
@@ -172,7 +175,7 @@ img {
 }
 
 .btn {
-    background-color: #E9D6F8;
+    background-color: #e9d6f8;
     color: #6504af;
     height: 35px;
     width: 35px;
@@ -225,7 +228,7 @@ h1 {
 
 .view-catalog {
     background-color: #b397e0;
-    color: #53694F;
+    color: #53694f;
     border: none;
     border-radius: 10px;
     padding: 15px;
@@ -233,7 +236,6 @@ h1 {
     min-width: 120px;
     font-family: monospace;
     font-weight: 900;
-
 }
 
 .view-catalog:hover {
@@ -254,7 +256,6 @@ h1 {
     position: absolute;
     right: -3px;
     top: 242px;
-
 }
 
 .left-arrow {
@@ -274,7 +275,7 @@ h1 {
     width: 30px;
     border: 1px solid white;
     color: white;
-    background-color: #A38262;
+    background-color: #a38262;
     outline-style: none;
 }
 
@@ -289,7 +290,6 @@ h1 {
     position: absolute;
     top: -45px;
     left: 52px;
-
 }
 
 .right-arrow-btn {
@@ -301,7 +301,7 @@ h1 {
     width: 30px;
     border: 1px solid white;
     color: white;
-    background-color: #A38262;
+    background-color: #a38262;
     outline-style: none;
 }
 
@@ -314,7 +314,8 @@ h1 {
     position: absolute;
     top: -63px;
     left: 115px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     color: white;
 }
 
@@ -336,7 +337,8 @@ h1 {
 
 .dress-img {
     color: white;
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
 }
 
 .footer {
@@ -348,21 +350,46 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #e5d6c4; 
+    color: #e5d6c4;
 }
 
 .footer-font {
-    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+        sans-serif;
     font-size: 11px;
 }
 
 .right-footer {
     display: flex;
-    justify-content: center; 
+    justify-content: center;
     align-items: center;
+    gap: 15px;
+    font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+    font-size: smaller;
 }
 
-.right-footer-container{
-    color: #e5d6c4;
+.right-footer-container {
+    color:  #e5d6c4;
+    position: absolute;
+    right: -1270px;
+    bottom: -1px;
+}
 
+.btn-footer {
+    color: #91663b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    border: 1px solid grey;
+    border-radius: 100px;
+}
+
+.images {
+    left: 570px;
+    position: absolute;
+    bottom: -20px;
 }
